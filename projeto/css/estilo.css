@@ -1,0 +1,39 @@
+html {
+    border: 1px solid black;
+}
+
+.header {
+    padding: 20px;
+
+    border: 1px solid black;
+}
+
+.navbar {
+    background-image: url('../img/barcos.webp');
+}
+
+.nav-search {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+main {
+    padding: 20px;
+
+    border: 1px solid black;
+}
+
+
+.cards-flex {
+    padding: 20px;
+    border: 1px solid black; 
+}
+
+.cards {
+    padding: 20px;
+    border: 1px solid black;
+}  
+
+.cards img {
+    border-radius: 3px;
+}

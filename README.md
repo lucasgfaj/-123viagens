@@ -2,7 +2,9 @@
 
 
 Avaliação 2: Desenvolvimento de um Site Responsivo
+
 Nesta avaliação da disciplina de Desenvolvimento de Páginas Web com HTML e CSS, você será desafiado a criar um site responsivo usando os conceitos e conteúdos ensinados durante as aulas. A avaliação será composta por diferentes aspectos, cada um contribuindo para sua nota final.
+
 Critérios de Avaliação
 ●	HTML/CSS (40%):
 
@@ -22,40 +24,52 @@ Critérios de Avaliação
 
 Instruções Gerais
 
+
 📚 Consultas Permitidas
 ●	Você pode consultar livros, slides, vídeos e sites da internet para auxiliar no desenvolvimento do seu site.
+
 🚫 Proibido Copiar
 ●	É estritamente proibido copiar a resolução de outra pessoa. Qualquer tentativa de plágio resultará em nota zero.
+
 📦 Download do Projeto
 ●	A avaliação está disponível no Moodle oficial da disciplina, como um arquivo compactado ZIP. Baixe e extraia-o no seu computador.
 ●	Dentro do arquivo compactado, você encontrará uma pasta com o projeto organizado do site, incluindo arquivos HTML e CSS, bem como uma pasta para imagens.
 ●	Não crie ou delete nenhum arquivo ou pasta.
+
 📄 Edição de Arquivos
 ●	Você deve editar apenas os seguintes arquivos: index.html e estilo.css.
 ●	Escreva todo o código HTML e CSS nesses arquivos, visando um visual semelhante ao fornecido junto com a avaliação.
+
 📤 Envio do Projeto
 ●	Após concluir o desenvolvimento, compacte todo o projeto do site e envie-o pelo Moodle.
 ●	Não serão aceitos envios por e-mail ou qualquer outro meio.
 ●	Preste atenção ao prazo, pois o Moodle automaticamente rejeitará envios fora do prazo estabelecido. Evite a entrega na última hora.
 Instruções Específicas para o Código
+
 🚧 Restrições
 ●	Na Avaliação 2, você poderá utilizar conteúdo de HTML e CSS não ensinado em aula, porém é possível desenvolver todo o site só com o que foi ensinado. 
 ●	Não use outras linguagens além de HTML e CSS, nem use bibliotecas ou frameworks CSS. 
 ●	Não use Javascript.
 ●	Evite o uso de editores de texto visuais semelhantes ao Dreamweaver.
+
 🙅‍♂️ Más Práticas a Evitar
 ●	Evite o uso do atributo "style" no HTML, a marcação <br> para espaçamento entre blocos, a estrutura de tabela na página e outras más práticas.
-🌐 Teste no Google Chrome
+
+w🌐 Teste no Google Chrome
 ●	O site será testado pelo professor no navegador Google Chrome.
+
 📱 Responsividade
 ●	O professor utilizará a altura e a largura da janela do navegador diferentes das que você usou para desenvolver o site e, mesmo assim, o visual do site deverá permanecer correto.
 ●	Certifique-se de que, no mínimo, o site seja exibido de maneira adequada em telas de diversos tamanhos, incluindo celular (320px), tablet (768px), laptop (1024px) e desktop (1440px).
 ●	Faça uso de consultas de mídia (@media queries) para garantir que a página seja responsiva em diferentes dispositivos.
+
 ✅ Validação W3C
 ●	Certifique-se de que seu código HTML passe na validação da W3C (https://validator.w3.org/nu/#textarea).
 ●	Será deduzida nota para cada erro ou alerta reportado pelo validador. Apenas o alerta relacionado ao idioma do site, devido ao "lorem ipsum," não será descontado.
+
 📧 Links de E-mail
 ●	Se existirem links com e-mails, eles devem abrir o gerenciador de e-mails da máquina.
+
 🧐 Códigos Relevantes
 ●	Utilize apenas códigos relevantes para a resolução da prova.
 ●	As marcações semânticas do HTML deverão ser usadas nos locais adequados.
@@ -81,6 +95,7 @@ Instruções e Dicas para o Site
 Lembre-se de seguir todas essas orientações detalhadamente ao desenvolver seu site para garantir o melhor desempenho na avaliação. 
 
 Apresentação do Projeto
+
 Para apresentar o projeto, você tem duas opções: gravar um vídeo explicativo (compartilhando o link) ou criar um relatório em formato PDF. Em ambos os casos, sua apresentação deve abranger aspectos específicos do seu trabalho.
 🎥 Opção 1: Gravação de Vídeo (compartilhamento do link):
 ●	Uma alternativa recomendada é utilizar ferramentas como o OBS Studio ou Loom.com para capturar a tela do seu computador.
@@ -91,8 +106,10 @@ Sugestões de Ferramentas para Gravação e Compartilhamento de Vídeo:
 ●	Utilize o OBS Studio para gravar a tela e, em seguida, compartilhe o vídeo no YouTube ou em outra plataforma de sua escolha.
 ●	Se optar pelo YouTube, você pode limitar o acesso tornando o vídeo "não listado", o que significa que ele só será acessível por meio de um link direto.
 ●	Alternativamente, você pode utilizar a plataforma Loom (loom.com) para gravar, editar e compartilhar o vídeo online.
+
 📄 Opção 2: Relatório em PDF:
 ●	Se optar por criar um relatório em PDF, este deve conter uma explicação detalhada do código HTML e CSS utilizado no site que você desenvolveu. Certifique-se de seguir as orientações dadas anteriormente.
+
 🗣️ Apresentação Oral:
 Durante uma aula subsequente, três alunos serão selecionados aleatoriamente para apresentar seu projeto para a turma e o professor. Essa apresentação oral é uma oportunidade para destacar os aspectos cruciais do seu trabalho.
 Durante a apresentação, esteja preparado para responder a perguntas relacionadas ao site que desenvolveu, ao código-fonte utilizado e aos conceitos abordados na disciplina. Sua nota inicialmente atribuída na prova será mantida se a apresentação for bem-sucedida.

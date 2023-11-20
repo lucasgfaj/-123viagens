@@ -55,7 +55,7 @@ Instruções Específicas para o Código
 🙅‍♂️ Más Práticas a Evitar
 ●	Evite o uso do atributo "style" no HTML, a marcação <br> para espaçamento entre blocos, a estrutura de tabela na página e outras más práticas.
 
-w🌐 Teste no Google Chrome
+🌐 Teste no Google Chrome
 ●	O site será testado pelo professor no navegador Google Chrome.
 
 📱 Responsividade

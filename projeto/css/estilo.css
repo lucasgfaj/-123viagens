@@ -86,7 +86,6 @@ main {
 }
 
 .cards {
-    border: 1px solid black;
     color: white;
     padding: .5em;
 	background: white;
@@ -94,12 +93,12 @@ main {
 	border-radius: 5px;
 	height: 15.75rem; /* Teste sem altura fixa */
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    background-position: center;    
 }
 
 .cards:nth-child(1) {
     background-image: url('../img/rio.webp');
-    width: 100%;
 }
 
 .cards:nth-child(2) {
@@ -109,32 +108,26 @@ main {
  
 .cards:nth-child(3) {
     background-image: url('../img/sao-paulo.webp');
-
 }
 
 .cards:nth-child(4) {
     background-image: url('../img/foz.webp');
-
 }
 
 .cards:nth-child(5) {
     background-image: url('../img/maceio.webp');
-
 }
 
 .cards:nth-child(6) {
     background-image: url('../img/salvador.webp');
-
 }
 
 .cards:nth-child(7) {
     background-image: url('../img/fortaleza.webp');
-
 }
 
 .cards:nth-child(8) {
     background-image: url('../img/belo-horizonte.webp');
-
 }
 
 /* em {

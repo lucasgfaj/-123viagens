@@ -3,7 +3,11 @@ html {
 }
 
 .header {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.25rem;
     border: 1px solid black;
+    width: 100%;
 }
 
 .logo {
@@ -11,28 +15,98 @@ html {
 }
 
 .links {
+
+    margin-left: 20%;
     border: 1px solid black;
+}
+
+.links a {
+    margin-right: 1.25rem;
 }
 
 .navbar {
+    display: flex;
+    padding: 6.25rem;
     border: 1px solid black;
+    background-image: url('../img/barcos.webp');
 }
 
 .nav-search {
+    padding: 2.25rem;
     border: 1px solid black;
+    background: white;
+    border-radius: 4px ;
 }
 
 main {
-    border: 1px solid black;
-
+    margin: 10px;
 }
 
 .cards-flex {
-    border: 1px solid black;
+    flex-flow: row wrap;
+    display: flex;
+	flex-direction: row; /* Não precisa, já que o flex cria uma linha por padrão */
+	/* flex-flow: row wrap; */ /* Faz a mesma coisa que wrap e direction */
+	row-gap: 25px;
+	column-gap: 25px;
+	/* gap: 25px */ /* Sintaxe: <row-gap> <column-gap> */
+	margin-bottom: 1rem;
+}
 
+.cards-flex div {
+    flex: 12.5rem;
 }
 
 .cards {
     border: 1px solid black;
+    color: white;
+    padding: .5em;
+	background: white;
+	border-top: 2px solid #bababa;
+	border-radius: 5px;
+	height: 15.75rem; /* Teste sem altura fixa */
+    background-repeat: no-repeat;
+    
+}
+
+.card1 {
+    background-image: url('../img/rio.webp');
+    width: 100%;
+    min-width: ;
+}
+
+.card2 {
+    background-image: url('../img/bonito.webp');
 
 }
+
+.card3 {
+    background-image: url('../img/sao-paulo.webp');
+
+}
+
+.card4 {
+    background-image: url('../img/foz.webp');
+
+}
+
+.card5 {
+    background-image: url('../img/maceio.webp');
+
+}
+
+.card6 {
+    background-image: url('../img/salvador.webp');
+
+}
+
+.card7 {
+    background-image: url('../img/fortaleza.webp');
+
+}
+
+.card8 {
+    background-image: url('../img/belo-horizonte.webp');
+
+}
+

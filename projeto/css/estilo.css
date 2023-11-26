@@ -223,6 +223,44 @@ main {
     .logo{
         margin: 0;
     }
+    .links a {
+        margin-right: 1.875rem;
+    }
+    
+    .navbar {
+        display: flex;
+        padding: 10px;
+        height: auto;
+       
+    }
+    
+    .nav-search {
+        margin-top: 7.5rem;
+        width: 100%;
+        height: auto;
+        padding: 1.5rem 1.5rem;
+        width: 100%;
+        background: white;
+        border-radius: .9375rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .nav-search h2 {
+        text-align: center;
+    }
+    
+    .flex-nav {
+        flex-direction: column;
+    }
+    
+    main {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .main-title {
+        text-align: center;
+    }
 
   }
   

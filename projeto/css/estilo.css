@@ -87,14 +87,15 @@ body {
 }
 
 .flex-nav input {
+    padding: 1rem;
     font-size: 1.125rem;
     margin: .25rem;
     height: 1.875rem;
 }
 
 .flex-nav button {
-    margin-top: 4px;
-    height: 1.875rem;
+    margin-top: .25rem;
+    height: 2.1875rem;
     background: #ea3d35;
     border: .0063rem solid #ea3d35 ;
     color: white;
@@ -162,13 +163,13 @@ main {
 
 .cards a {
     display: inline-block;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
     width: 10.9375rem;
     background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 1.125rem;
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 
 .cards:nth-child(1) {

@@ -108,6 +108,7 @@ main {
     margin: .625rem;
     margin-right: 6.125rem;
     margin-left: 6.125rem;
+    margin-bottom: 3.125rem;
 }
 
 .main-title {
@@ -153,16 +154,17 @@ main {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 1.5625rem;
+    text-shadow: black .125rem .125rem;
 }
 
 .cards p {
+    text-shadow: black .125rem .125rem;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1.875rem;
 }
 
 .cards a {
-    display: inline-block;
     padding: .625rem 1.875rem;
     width: 10.9375rem;
     background-color: white;
@@ -170,6 +172,8 @@ main {
     text-decoration: none;
     border-radius: 1.125rem;
     margin-top: .625rem;
+    border: .0625rem solid white;
+    box-shadow: .0625rem .0625rem .0625rem .0625rem black;
 }
 
 .cards:nth-child(1) {

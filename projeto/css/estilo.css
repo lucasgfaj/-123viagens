@@ -208,3 +208,32 @@ main {
 .cards:nth-child(8) {
     background-image: url('../img/belo-horizonte.webp');
 }
+
+/* Media Query para Celulares (até 767px) */
+@media only screen and (max-width: 767px) {
+    .header{
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .links{
+        margin: 0;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+  }
+  
+  /* Media Query para Tablets (768px a 1023px) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  }
+  
+  /* Media Query para Laptops (1024px a 1439px) */
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  }
+  
+  /* Media Query para Desktops (a partir de 1440px) */
+  @media only screen and (min-width: 1440px) {
+  }

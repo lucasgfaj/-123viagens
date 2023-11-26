@@ -1,6 +1,6 @@
 body {
     background: #f8f6f7;
-    font-family: 'Arial', 'Helvetica', sans-serif;    
+    font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 
@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: .3125rem;
     position: fixed;
     width: 100%;
 }
@@ -26,22 +26,23 @@ body {
     font-weight: 900;
 }
 
-.colors:nth-child(1){
+.colors:nth-child(1) {
     color: #f35926;
 }
 
-.colors:nth-child(2){
+.colors:nth-child(2) {
     color: #fcb929;
 
 }
-.colors:nth-child(3){
+
+.colors:nth-child(3) {
     color: #00b049;
 }
 
 .links {
     padding: .625rem;
     margin-right: 6.125rem;
-    
+
 }
 
 .links a {
@@ -51,34 +52,78 @@ body {
 .navbar {
     display: flex;
     padding: 6.25rem;
-    border: 1px solid black;
     background-image: url('../img/barcos.webp');
     background-size: cover;
     background-position: center;
-    height: 18.75rem;
+    height: 31.25rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
 }
 
 .nav-search {
-    width: 100%; 
-    padding: 2.25rem;
-    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
     background: white;
-    border-radius: 10px ;
+    border-radius: .9375rem;
+    margin-bottom: 5rem;
+}
+
+.nav-search h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.flex-nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-nav input {
+    font-size: 1.125rem;
+    margin: .25rem;
+    height: 1.875rem;
+}
+
+.flex-nav button {
+    margin-top: 4px;
+    height: 1.875rem;
+    background: #ea3d35;
+    border: .0063rem solid #ea3d35 ;
+    color: white;
+    font-weight: bold;
+    border-radius: .25rem;
+    margin-bottom: .625rem;
 }
 
 main {
-    margin: 10px;
+    margin: .625rem;
     margin-right: 6.125rem;
     margin-left: 6.125rem;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 1.375rem;
+    margin-top: 2.1875rem;
+    margin-bottom: 1.25rem
 }
 
 .cards-flex {
     flex-flow: row wrap;
     display: flex;
-	flex-direction: row;
-	row-gap: 25px;
-	column-gap: 25px;
-	margin-bottom: 1rem;
+    flex-direction: row;
+    row-gap: 1.5625rem;
+    column-gap: 1.5625rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
 }
 
 .cards-flex div {
@@ -86,15 +131,44 @@ main {
 }
 
 .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
-    padding: .5em;
-	background: white;
-	border-top: 2px solid #bababa;
-	border-radius: 5px;
-	height: 15.75rem; /* Teste sem altura fixa */
+    margin: .3125rem;
+    padding: 1.5625rem;
+    background: white;
+    border-radius: .375rem;
+    height: 15.625rem;
+    width: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
+}
+
+.cards h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5625rem;
+}
+
+.cards p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.875rem;
+}
+
+.cards a {
+    display: inline-block;
+    padding: 10px 30px;
+    width: 10.9375rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 1.125rem;
+    margin-top: 10px;
 }
 
 .cards:nth-child(1) {
@@ -105,7 +179,7 @@ main {
     background-image: url('../img/bonito.webp');
 
 }
- 
+
 .cards:nth-child(3) {
     background-image: url('../img/sao-paulo.webp');
 }
@@ -129,22 +203,3 @@ main {
 .cards:nth-child(8) {
     background-image: url('../img/belo-horizonte.webp');
 }
-
-/* em {
-    font-size: 1.875rem;
-    font-style: bold;
-    font-weight: 900;
-}
-
-em:nth-child(1){
-    color: #f35926;
-}
-
-em:nth-child(2){
-    color: #fcb929;
-}
-
-em:nth-child(3){
-    color: #00b049;
-} */
-

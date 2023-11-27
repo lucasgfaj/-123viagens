@@ -209,14 +209,14 @@ main {
     background-image: url('../img/belo-horizonte.webp');
 }
 
-/* Media Query para Celulares (até 767px) */
 @media only screen and (max-width: 767px) {
     .header{
         justify-content: center;
         flex-direction: column;
     }
     
-    .links{
+    .links{ 
+        padding: .3125rem;
         margin: 0;
     }
 
@@ -262,82 +262,34 @@ main {
 
   }
   
-  /* Media Query para Tablets (768px a 1023px) */
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
-    .navbar {
-        display: flex;
-        height: auto;
-       
+  @media only screen and (min-width: 768px) and (max-width:  999px) {
+
+    .nav-search{
+        margin-top: 6.25rem;
     }
-    
-    .nav-search {
-        width: 100%;
-        height: auto;
-        padding: 1.5rem 1.5rem;
-        width: 100%;
-        margin-bottom: .625rem;
-    }
-    
+
     .nav-search h2 {
         text-align: center;
     }
-    
+
     .flex-nav {
-        /* flex-direction: column; */
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center ;
+        width: 100%;
+
+    } 
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1416px) {
+    .flex-nav {
+        flex-wrap: nowrap;
+        justify-content: center ;
+        width: 100%;
     }
-    
- 
-  }
-  
-  /* Media Query para Laptops (1024px a 1439px) */
-  @media only screen and (min-width: 1024px) and (max-width: 14414px) {
 
-    .navbar {
-    display: flex;
-    padding: 6.25rem;
-    background-image: url('../img/barcos.webp');
-    background-size: cover;
-    background-position: center;
-    height: 31.25rem;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
+    .flex-nav input {
+       min-width: 2.5rem;
+    }
 }
 
-.nav-search {
-    width: 100%;
-    height: auto;
-    padding: 1.5rem 1.5rem;
-    width: 100%;
-    background: white;
-    border-radius: .9375rem;
-    margin-bottom: 5rem;
-}
-
-.nav-search h2 {
-    font-size: 1.875rem;
-    font-weight: bold;
-    margin-bottom: 1.25rem;
-}
-
-.flex-nav {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-}
-
-.flex-nav input {
-    padding: 1rem;
-    font-size: 1.125rem;
-    margin: .25rem;
-    height: 1.875rem;
-}
-
-
-  }
-  

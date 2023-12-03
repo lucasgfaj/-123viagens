@@ -61,7 +61,6 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    text-align: start;
 }
 
 .nav-search {
@@ -122,18 +121,12 @@ main {
 }
 
 .cards-flex {
-    flex-flow: row wrap;
-    display: flex;
-    flex-direction: row;
-    row-gap: 1.5625rem;
-    column-gap: 1.5625rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+    grid-gap: 1.5625rem;
     margin-bottom: 1rem;
-    justify-content: space-between;
 }
 
-.cards-flex div {
-    flex: 12.5rem;
-}
 
 .cards {
     display: flex;
@@ -147,7 +140,6 @@ main {
     background: white;
     border-radius: .375rem;
     height: 15.625rem;
-    width: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

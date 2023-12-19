@@ -1,7 +1,6 @@
 # -123viagens
 
-
-Avaliação 2: Desenvolvimento de um Site Responsivo
+Desenvolvimento de um Site Responsivo
 
 Nesta avaliação da disciplina de Desenvolvimento de Páginas Web com HTML e CSS, você será desafiado a criar um site responsivo usando os conceitos e conteúdos ensinados durante as aulas. A avaliação será composta por diferentes aspectos, cada um contribuindo para sua nota final.
 
